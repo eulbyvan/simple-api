@@ -4,7 +4,7 @@
  * Copyright (c) 2023
  */
 
-const TutorialList = ({ data }) => {
+const TutorialList = ({ data }) => (
     <table>
         <thead>
             <tr>
@@ -22,7 +22,7 @@ const TutorialList = ({ data }) => {
                 </tr>
             ))}
         </tbody>
-    </table>;
-};
+    </table>
+);
 
 export default TutorialList;
