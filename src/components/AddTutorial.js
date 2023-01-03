@@ -20,7 +20,10 @@ export const AddTutorial = () => {
             title, body
         };
 
+        setLoading(true)
+
         try {
+            // throw new Error("error")
             const response = await axiosInstance.post("posts", payload);
             console.log(response);
         } catch (e) {
