@@ -7,7 +7,7 @@ import axios from "axios";
  */
 
 const axiosInstance = axios.create({
-    baseUrl: "https://jsonplaceholder.typicode.com",
+    baseURL: "https://jsonplaceholder.typicode.com",
     headers: {
         "Content-type": "application/json"
     }

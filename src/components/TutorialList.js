@@ -18,7 +18,7 @@ const TutorialList = ({ data }) => (
                 <tr key={index}>
                     <td>{item.id}</td>
                     <td>{item.title}</td>
-                    <td>{item.description}</td>
+                    <td>{item.body}</td>
                 </tr>
             ))}
         </tbody>
