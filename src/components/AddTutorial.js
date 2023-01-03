@@ -53,7 +53,7 @@ export const AddTutorial = () => {
                         className="form-control"
                         placeholder="Enter your body"
                         value={body}
-                        onChange={(e) => setBody(e.target.body)}
+                        onChange={(e) => setBody(e.target.value)}
                     />
                     <label htmlFor="floatingInput">Body</label>
                 </div>
